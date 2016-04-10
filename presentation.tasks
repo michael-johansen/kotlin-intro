@@ -12,7 +12,11 @@ Kotlin intro:
   Why Kotlin? (10 min):
     ☐ Pragmatic JVM language Developed by JetBrains that combines OO and functional paradigms.
     ☐ 1.0 Release in February 2016
-    JetBrains (source: https://kotlinlang.org/): 
+    GitHub has 3,400 projects with kotlin code. Notable projects:
+      ☐ Kotlin/anko: Makes android development more pleasant
+      ☐ LWJGL/lwjgl3: LWJGL is a Java library that enables cross-platform access to popular native APIs useful in the development of graphics (OpenGL), audio (OpenAL) and parallel computing (OpenCL) applications.
+      ☐ ReactiveX/RxKotlin: RxJava bindings for Kotlin
+    JetBrains (source: https://kotlinlang.org/):
       ☐ Concise: Drastically reduce the amount of boilerplate code you need to write.
       Examples: Data classes, lambda expressions, singletons
       ☐ Safe: Avoid entire classes of errors such as null pointer exceptions.
