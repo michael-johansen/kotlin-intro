@@ -1,9 +1,10 @@
 buildscript {
+    ext.kotlin_version = '1.0.1-2'
     repositories {
         mavenCentral()
     }
     dependencies {
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:0.13.1514'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
@@ -14,10 +15,14 @@ repositories {
     mavenCentral()
 }
 
+sourceSets {
+    main.java.srcDirs += 'src/main/kotlin'
+}
+
 dependencies {
-    compile 'org.jetbrains.kotlin:kotlin-stdlib:0.13.1514'
-    compile 'org.jetbrains.kotlin:kotlin-jdk-annotations:0.13.1514'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile 'com.google.guava:guava:18.0'
     compile 'junit:junit:4.12'
 }
+
 

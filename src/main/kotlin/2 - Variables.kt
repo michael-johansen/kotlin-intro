@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     var notNullable: String = "I can't be null"
     // notNullable = null // not legal
     var nullable: String?
-    nullable = "I can be null"
+    nullable = null //I can be null
 
     val value = "I'm final"
     // value = "" // not legal
