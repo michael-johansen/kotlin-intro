@@ -1,0 +1,98 @@
+Kotlin intro:  
+  About me (1 min):
+    ☐ Michael Johansen (Michael.Johansen@Itera.no)
+    ☐ github.com/michael-johansen/    
+  Preparation (5 min):
+    Alternative A:
+      ☐ Follow guide: https://kotlinlang.org/docs/tutorials/getting-started.html
+      ☐ git clone https://github.com/Kotlin/kotlin-koans      
+    Alternative B:
+      ☐ Online at http://try.kotlinlang.org/ then select "Kotlin Koans"
+    Later we will solve the Koans
+  Why Kotlin? (10 min):
+    ☐ Pragmatic JVM language Developed by JetBrains that combines OO and functional paradigms.
+    ☐ 1.0 Release in February 2016
+    JetBrains (source: https://kotlinlang.org/): 
+      ☐ Concise: Drastically reduce the amount of boilerplate code you need to write.
+      Examples: Data classes, lambda expressions, singletons
+      ☐ Safe: Avoid entire classes of errors such as null pointer exceptions.
+      Examples: Null safety, smart casting
+      ☐ Versatile: Build server-side applications, Android apps or frontend code running in the browser.
+      Examples: Android, JavaScript, Java SE/EE
+      ☐ Interoperable: Leverage existing frameworks and libraries of the JVM with 100% Java Interoperability.
+      Examples: Java, javascript/dom-api
+      ☐ Tooling: Command Line Compiler or First Class IDE Support. Freedom to choose.
+      Examples: Refactoring, code assists
+    Author:
+      ☐ Extension functions for great domain specific languages:
+      Example 1 (Creating a complex number class with support for regular operator invocations):
+        @Test 
+        fun shouldBeAbleToAddAComplexAndReal() {
+          ((2 + 3(i)) + 1) should equalTo(Complex(3, 3))
+        }
+      Example 2 (Extending String with the httpGET function):
+        "http://www.example.com/api".httpGET().then({...})
+  Code-time (45 min):
+    ☐ Hello World
+      ☐ Very similar to Java version
+      ☐ Notice mismatch between folder and package, filename and function/class
+    ☐ Variables
+      ☐ variables and values
+      ☐ observe nullabilty as a part of the type system
+    ☐ Functions
+    ☐ Classes
+    ☐ Inheritance
+    ☐ Extensions
+    ☐ Smart Casts
+    ☐ Java interop
+    ☐ Optionals (NEW - Section)
+
+
+  Kotlin vs Java:
+    Kotlin:
+      ☐ Null is checked compile time
+      ☐ No raw types
+      ☐ Invariant Arrays
+      ☐ Proper function types
+      ☐ Smart casts
+      ☐ String templates
+      ☐ Properties
+      ☐ First class delegation
+      ☐ Singletons
+      ☐ Operator overloading
+      ☐ Companion object
+    Java:
+      ☐ Checked exceptions
+      ☐ Static members
+      ☐ Primitives
+      ☐ Public fields
+  Kotlin vs Scala:
+    Kotlin:
+      ☐ Zero overhead null safety
+      ☐ Smart casts
+      ☐ First class delegation
+    Scala:
+      ☐ Implicit conversions
+      ☐ Overridable type members
+      ☐ Macros
+      ☐ Built-in XML    
+  Resources:
+    ☐ Main site: https://kotlinlang.org/
+    ☐ Issue tracker: https://youtrack.jetbrains.com/issues/KT 
+    Find an "Up For Grabs"-issue if you want to contribute
+    ☐ Slack: http://kotlinlang.slack.com/
+    ☐ Stack overflow: http://stackoverflow.com/questions/tagged/kotlin
+    ☐ Reddit: https://www.reddit.com/r/Kotlin/
+    ☐ Forum: https://discuss.kotlinlang.org/
+  Koans-time (2 hours++):
+
+
+
+
+
+
+
+
+
+
+
