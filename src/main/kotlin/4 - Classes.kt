@@ -8,7 +8,11 @@ import java.time.temporal.ChronoUnit
 
 private class SimpleClass()
 private class ClassWithPrimaryConstructor(var simpleClass: SimpleClass)
-private class SimpleDataClass(val firstName: String, val lastName: String, val dateOfBirth: ZonedDateTime) {
+private data class SimpleDataClass(
+  val firstName: String,
+  val lastName: String,
+  val dateOfBirth: ZonedDateTime
+) {
   init {
     println("Class initialized with $firstName $lastName, age $age")
   }
@@ -36,6 +40,6 @@ fun main(args: Array<String>) {
   val classWithPrimaryConstructor = ClassWithPrimaryConstructor(simpleClass)
   classWithPrimaryConstructor.simpleClass = SimpleClass()
   val data = SimpleDataClass ("Donald", "Duck", donaldFirstAppearance)
-  println("Class initialized with ${data.firstName} ${data.lastName}, age ${data.age}")
+  println("Data class: $data")
   ClassWithRegularConstructor("Some name")
 }

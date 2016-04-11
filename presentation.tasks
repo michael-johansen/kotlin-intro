@@ -44,14 +44,32 @@ Kotlin intro:
       ☐ variables and values
       ☐ observe nullabilty as a part of the type system
     ☐ Functions
+      ☐ Default return Unit (void)
+      ☐ Body / expression
+      ☐ Named parameters
+      ☐ Default values
+      ☐ Varargs
     ☐ Classes
+      ☐ no new keyword, just invoke class
+      ☐ Primary and secondary constructors
+      ☐ Data classes (equals/hashcode)
     ☐ Inheritance
+      ☐ Interfaces
+      ☐ : instead of extend/implements
+      ☐ Classes are final by default
+      ☐ Super constructor call from primary constructor
     ☐ Extensions
+      ☐ Add functions to existing/new classes
+      ☐ Receiver functions (use this as you would inside that class)
+      ☐ bonus: if as ternary expression
     ☐ Smart Casts
+      ☐ Compiler remembers assertion you have done in same code-block
+      ☐ No need to down cast/null check
+      ☐ when expression: A smarter switch/if-chain
     ☐ Java interop
+      ☐ Transparent usage of properties
     ☐ Optionals (NEW - Section)
-
-
+      ☐ Compare the implementations
   Kotlin vs Java:
     Kotlin:
       ☐ Null is checked compile time
